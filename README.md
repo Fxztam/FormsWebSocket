@@ -7,7 +7,7 @@ between the server and the web browser by providing:
 - full-duplex 
 - real-time
 
-client/server communications. 
+client / server communications. 
 
 The server can send data to the client at any time. Because it runs over TCP, it also provides a low-latency low-level communication and 
 reduces the overhead of each message.
