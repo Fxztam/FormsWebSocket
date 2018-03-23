@@ -23,9 +23,7 @@ There are two ways of configuring endpoints: annotation-based and extension-base
 
 - @ServerEndpoint: If decorated with @ServerEndpoint, the container ensures availability of the class as a WebSocket server listening to a specific URI space
 - @ClientEndpoint: A class decorated with this annotation is treated as a WebSocket client
-- @OnOpen: A Java method with 
-- @OnOpen is invoked by the container when a new WebSocket connection is initiated
-- @OnMessage: A Java method, annotated with 
-- @OnMessage, receives the information from the WebSocket container when a message is sent to the endpoint
+- @OnOpen: A Java method with @OnOpen is invoked by the container when a new WebSocket connection is initiated
+- @OnMessage: A Java method, annotated with @OnMessage, receives the information from the WebSocket container when a message is sent to the endpoint
 - @OnError: A method with @OnError is invoked when there is a problem with the communication
 - @OnClose: Used to decorate a Java method that is called by the container when the WebSocket connection closes
