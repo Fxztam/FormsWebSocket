@@ -1,13 +1,11 @@
 # FormsWebSocket
 ## 1. Overview
-WebSocket provides an alternative to the limitation of efficient communication
-between the server and the web browser by providing:
+WebSocket is an Internet protocol providing two-way communication between a client and a server. WebSocket was designed to be implemented in web browsers and web servers, but it can be used by any client or server application.
+Messages can be delivered in either UTF-8 TEXT or BINARY format:
 
 - bi-directional 
 - full-duplex 
-- real-time
-
-client / server communications. 
+- in real-time.
 
 The server can send data to the client at any time. Because it runs over TCP, it also provides a low-latency low-level communication and 
 reduces the overhead of each message.
