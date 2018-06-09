@@ -1,6 +1,6 @@
 # FormsWebSocket
 ## 1. Overview
-WebSocket is an Internet protocol providing two-way communication between a client and a server. WebSocket was designed to be implemented in web browsers ( https://caniuse.com/#feat=websockets) and web servers, but it can be used by any client or server application.
+WebSocket is an Internet protocol providing two-way communication between a client and a server. WebSocket was designed to be implemented in web browsers (https://caniuse.com/#feat=websockets) and web servers, but it can be used by any client or server application.
 Messages can be delivered in either UTF-8 TEXT or BINARY format:
 
 - bi-directional 
