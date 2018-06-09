@@ -8,7 +8,7 @@ Messages can be delivered in either UTF-8 TEXT or BINARY format:
 - in real-time.
 
 The server can send data to the client at any time. Because it runs over TCP, it also provides a low-latency low-level communication and 
-reduces the overhead of each message. Messages over websockets are sent in frames, these frames have only 2 byte overhead. Messages over websockets are sent in frames. These frames have only 2 byte overhead. 
+reduces the overhead of each message. Messages over websockets are sent in frames, these frames have only 2 byte overhead. Messages over websockets are sent in frames, these frames have only 2 byte overhead. 
 
 ## 2. JSR 356
 JSR 356 or the Java API for WebSocket, specifies an API that Java developers can use for integrating WebSockets withing their applications – both on the server side as well as on the Java client side.
